@@ -25,7 +25,7 @@ public class Data {
     };
 
     public static int getNum(int x, int y) {
-        if (x < 0 || x >= 20 || y < 0 || y >= 20) return -1;
+        if (x < 0 || x >= 20 || y < 0 || y >= 20) return 0;
         return numberTable[y * 20 + x];
     }
 }

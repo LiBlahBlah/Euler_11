@@ -3,10 +3,15 @@ package com.iamchiwon;
 import io.reactivex.Observable;
 
 public class SlowAnswer {
+    static long start = 0;
+
     public static void main(String[] args) {
         System.out.println("Slow...");
 
-        numSource().reduce((n1, n2) -> Math.max(n1, n2))
+        numSource()
+                .doOnSubscribe(dontcare  -> start = System.currentTimeMillis())
+                .doOnTerminate(() -> System.out.println("TIME : " + (System.currentTimeMillis() - start) + " ns"))
+                .reduce((n1, n2) -> Math.max(n1, n2))
                 .subscribe(max -> {
                     System.out.println("MAX : " + max);
                 });
