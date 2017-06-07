@@ -9,8 +9,9 @@ public class SlowAnswer {
         System.out.println("Slow...");
 
         numSource()
-                .doOnSubscribe(dontcare  -> start = System.currentTimeMillis())
-                .doOnTerminate(() -> System.out.println("TIME : " + (System.currentTimeMillis() - start) + " ns"))
+                .doOnSubscribe(dontcare -> start = System.nanoTime())
+                .doOnTerminate(() -> System.out.println("TIME : " + (System.nanoTime() - start) + " ns"))
+                .filter(val -> val != 0)
                 .reduce((n1, n2) -> Math.max(n1, n2))
                 .subscribe(max -> {
                     System.out.println("MAX : " + max);
