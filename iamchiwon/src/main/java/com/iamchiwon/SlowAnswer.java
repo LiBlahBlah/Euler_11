@@ -4,7 +4,7 @@ import io.reactivex.Observable;
 
 public class SlowAnswer {
     public static void main(String[] args) {
-        System.out.println("Start...");
+        System.out.println("Slow...");
 
         numSource().reduce((n1, n2) -> Math.max(n1, n2))
                 .subscribe(max -> {
