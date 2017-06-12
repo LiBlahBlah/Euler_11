@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Euler11</string>
+    <string name="problem">수평, 수직, 또는 대각선 방향으로 연속된 숫자 4개의 곱 중 최대값은?</string>
+    <string name="number_format">%02d</string>
+    <string name="duration_format">%dms</string>
+    <string name="random">Random</string>
+    <string name="origin">Original</string>
+</resources>
