@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/jaesunlee/.android/build-cache/ffadcf8e8c8b39d9a0c0185263aaa4e573484ece/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="/Users/jaesunlee/Study/Android/Euler11/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9793c7af99dccb194eb79e2f18642cee655e58e6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jaesunlee/.android/build-cache/1f06b29b7fa994dfbc6518ae88ef1b5887f60b23/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="/Users/jaesunlee/Study/Android/Euler11/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e1bbb4364f95f05a75937298737b6ef19ec6e62b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jaesunlee/.android/build-cache/d353c94fc37540925c7bc09180ba8921196c889d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="/Users/jaesunlee/Study/Android/Euler11/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_35bff44a1c681e2575b643526efaf7a31514a199/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jaesunlee/.android/build-cache/ac4954476e4745e3c7336d6ecd251ac149019119/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="/Users/jaesunlee/Study/Android/Euler11/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0e619b29d40fc28abd1993cef18d9b62f50a754c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jaesunlee/Study/Android/Euler11/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="/Users/jaesunlee/Study/Android/Euler11/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_bba5ea91924add19990f716440e0db700162b335/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jaesunlee/.android/build-cache/eeb28ca4fbfe0f92b0ccb7f7bdb5c4f0b2f78643/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="/Users/jaesunlee/Study/Android/Euler11/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6ec745107cc8e8b595d3bdbd743076f7e80b5663/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jaesunlee/.android/build-cache/edcf240ed55b5a4bfca8193ba19da564b1709a43/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/jaesunlee/Study/Android/Euler11/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_323446489a52ec697714e30eb5d215a56c96621a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jaesunlee/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="/Users/jaesunlee/Study/Android/Euler11/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.2.0_78f5c77d3b8b2223ce1814393390e7eee374d5c0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jaesunlee/.android/build-cache/4e8e07527377d394fb0236d018ed94351f6053a6/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="/Users/jaesunlee/Study/Android/Euler11/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_00662069d29382a21779fb9b5913db035fd0c1a3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jaesunlee/Study/Android/Euler11/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f36d9baaf184f52695d4d4d03c2ea4978e734357">
+        <dex dex="/Users/jaesunlee/Study/Android/Euler11/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_c431f7ffa42f5ce2c5fa5b2d8aa3226a9b4f7e07/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jaesunlee/.android/build-cache/8138901bf26fa81c0b97cc5fe1293df0ce806383/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="152de8da301561dcb0946471697a420d8f7a68c5">
+        <dex dex="/Users/jaesunlee/Study/Android/Euler11/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a425ea8b87aa3652753402f0ee24a94964e932a0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jaesunlee/.android/build-cache/6f34caebcf7c524aabc96b140c5efe4684f2e5de/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="/Users/jaesunlee/Study/Android/Euler11/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f0b8991108a9e617409f8c1649fb90064699b43b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jaesunlee/.android/build-cache/2979019e284282df314278449ef67da3a962f0e4/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="/Users/jaesunlee/Study/Android/Euler11/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_462e37c194a002dd54c155cef9b4b39ba6cb1e3c/classes.dex" />
+    </item>
+
+</items>

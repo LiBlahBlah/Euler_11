@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="activity"
+            type="com.janatee.app.euler11.MainActivity"/>
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/problem"
+            android:textSize="13sp"
+            android:textColor="#000000"
+            android:layout_margin="10dp"/>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/problem_map"
+            android:layout_width="340dp"
+            android:layout_height="340dp"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp">
+            <Button
+                android:id="@+id/random"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/random"
+                android:layout_alignParentEnd="true"
+                android:onClick="@{() -> activity.onClickRandom()}"/>
+            <Button
+                android:id="@+id/origin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/origin"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/random"
+                android:onClick="@{() -> activity.onClickOriginal()}"/>
+            <TextView
+                android:id="@+id/answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:layout_toStartOf="@+id/random"/>
+            <TextView
+                android:id="@+id/duration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:layout_toStartOf="@+id/random"
+                android:layout_below="@id/answer"/>
+        </RelativeLayout>
+    </LinearLayout>
+</layout>
